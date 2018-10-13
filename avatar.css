@@ -1,9 +1,26 @@
+@media (max-width: 800px) {
+    .User-list {
+      list-style: none;
+      width: 80%;
+      margin: 10px auto;
+    }
+}
+
+@media (min-width: 800px) {
 .User-list {
   list-style: none;
+  width: 400px;
+  margin: 10px auto;
+  }
 }
 
 .Avatar {
   text-align: center;  
+  background-color: #f3f0ff;
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 5px;
 }
 
 .Avatar img {
